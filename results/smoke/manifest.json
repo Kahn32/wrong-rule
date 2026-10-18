@@ -1,0 +1,60 @@
+{
+  "command": "active",
+  "config": {
+    "dim": 4,
+    "teacher_seeds": [
+      0
+    ],
+    "training_seeds": [
+      0
+    ],
+    "n_train": 64,
+    "n_val": 64,
+    "n_test": 128,
+    "noise": 0.01,
+    "coverage": 0.05,
+    "rounds": 1,
+    "labels_per_round": 8,
+    "pool_pairs": 32,
+    "audit_pairs": 32,
+    "decays": [
+      0.0,
+      0.03
+    ],
+    "methods": [
+      "random_id",
+      "random_pairs",
+      "diversity",
+      "seed_pairs",
+      "path_points",
+      "path_pairs",
+      "oracle_pairs"
+    ],
+    "train": {
+      "steps": 30,
+      "width": 16,
+      "depth": 2,
+      "eval_every": 10
+    }
+  },
+  "python": "3.12.14",
+  "torch": "2.14.1+cpu",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "torch_threads": 1,
+  "source_sha256": {
+    "__init__.py": "dba680e0d81c75665ef30b50066646c7609aa4e70faa2983c95cff5b6b73f661",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "acquisition.py": "4b7d9e81882fc04d4f19cd180bf4be1e6c18452f557510851d6e8f3d6dea40c6",
+    "analysis.py": "010bb3eef9dc941d8c845574033c97e74ec9a5e93c6074f97b561cc082637ff7",
+    "cli.py": "239cd2040757bbf75cf5fcf481e4dbe5a0cd6da7ae92ce6fc787d5f49a6a027a",
+    "data.py": "d69dd6967e77d9a4aca584b4d26eb5ab455617ff74c00489d1a9cc8fb47ddbb6",
+    "experiments.py": "a7bcb21728b715356999fbb01eab9de2ab81504f820fca33c6659691098dffef",
+    "io.py": "550726a224ed1587b3b0520fa7fa984de00b7955d9a54cb2e01777b14a32c3f8",
+    "metrics.py": "0e745e16adad0225c8fb6f24951ed473eb32b754efff6315fafd99072c6796da",
+    "models.py": "8e6139c69c1420469d2d21f15d4a843c105ca1252ced53adfd9f9aa28dad15cf",
+    "training.py": "81f5d4f89444c9b156b9d8e9679324000e35e4ab00390da587f6325a28a82463"
+  },
+  "status": "complete",
+  "implementation": "independent; not official paper reproduction"
+}

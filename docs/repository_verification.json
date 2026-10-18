@@ -1,0 +1,23 @@
+[
+  {
+    "repository": "https://github.com/smonsays/modular-hyperteacher",
+    "branch": "main",
+    "commit": "2680b5c6a5fd88f1487a6f794cf70d20b7bc261e",
+    "readme_sha256": "e1d48d903cb03fdd8309bbe370ec096e89c963bcbd4372550a9c6304dda72540",
+    "verified": "2026-10-17"
+  },
+  {
+    "repository": "https://github.com/brendel-group/compositional-ood-generalization",
+    "branch": "main",
+    "commit": "4f96ac02d38c0355047f1ed7ceb2eb8896796c47",
+    "readme_sha256": "53c7eb634d166b7a1ef53849ae528c69809854a39fce61fdf281f7d24518b80b",
+    "verified": "2026-10-17"
+  },
+  {
+    "repository": "https://github.com/PoggioAI/PoggioAI_MSc",
+    "branch": "MSc_Prod",
+    "commit": "b2118e6f9cc07009da5f22b5816907e1f90cfe03",
+    "readme_sha256": "4b9753643dc503d5d39402452b35b1dcb11e07f69dab9fc107d70b70cc979c81",
+    "verified": "2026-10-17"
+  }
+]

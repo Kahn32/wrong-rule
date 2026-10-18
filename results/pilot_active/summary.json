@@ -1,0 +1,93 @@
+{
+  "random_id": {
+    "heldout_nmse_mean": 0.07208460816820202,
+    "teacher_bootstrap_95_percent": [
+      0.04887814778078916,
+      0.0868684125496117
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.000935327960178256,
+    "predictor_and_committee_training_seconds": 39.05568966099975,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "random_pairs": {
+    "heldout_nmse_mean": 0.009733904545284621,
+    "teacher_bootstrap_95_percent": [
+      0.005930315885943882,
+      0.011884905024717604
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.0001992661927943118,
+    "predictor_and_committee_training_seconds": 40.63606718500034,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "diversity": {
+    "heldout_nmse_mean": 0.008066104108069024,
+    "teacher_bootstrap_95_percent": [
+      0.006183134147028996,
+      0.009289858412827243
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.00012089581772064169,
+    "predictor_and_committee_training_seconds": 38.16864998400001,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "seed_pairs": {
+    "heldout_nmse_mean": 0.008990049540672626,
+    "teacher_bootstrap_95_percent": [
+      0.00614955879147626,
+      0.011542680239849204
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.00015091453678905964,
+    "predictor_and_committee_training_seconds": 36.29534785999988,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "path_points": {
+    "heldout_nmse_mean": 0.008922005115873358,
+    "teacher_bootstrap_95_percent": [
+      0.006066841209552302,
+      0.012071544991108444
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.00014864349213894457,
+    "predictor_and_committee_training_seconds": 35.04769422600009,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "path_pairs": {
+    "heldout_nmse_mean": 0.007417541593093227,
+    "teacher_bootstrap_95_percent": [
+      0.003948598253772055,
+      0.010566926841975618
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.00012647390637236336,
+    "predictor_and_committee_training_seconds": 35.72694609099983,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 0
+  },
+  "oracle_pairs": {
+    "heldout_nmse_mean": 0.005760858953437875,
+    "teacher_bootstrap_95_percent": [
+      0.0023265989123062245,
+      0.011761714903505647
+    ],
+    "teachers": 3,
+    "acquired_labels": 128,
+    "response_mse_mean": 0.00011642625274059053,
+    "predictor_and_committee_training_seconds": 36.39642164600002,
+    "training_runs_per_trial": 15,
+    "oracle_scoring_labels_per_trial": 2048
+  }
+}

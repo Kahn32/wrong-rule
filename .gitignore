@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+results/**/runs/
+results/**/data/
+*.pt
+*.npz
+FILE_MANIFEST.json

@@ -1,0 +1,70 @@
+{
+  "changes": {
+    "wrongrule/__init__.py": {
+      "before_sha256": "dba680e0d81c75665ef30b50066646c7609aa4e70faa2983c95cff5b6b73f661",
+      "after_sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/__main__.py": {
+      "before_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "after_sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/acquisition.py": {
+      "before_sha256": "4b7d9e81882fc04d4f19cd180bf4be1e6c18452f557510851d6e8f3d6dea40c6",
+      "after_sha256": "689cb2b2bdc919c146d0160d16513ab50ba34bf805b0d35d2d7c85a21bec7cf5",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/analysis.py": {
+      "before_sha256": "010bb3eef9dc941d8c845574033c97e74ec9a5e93c6074f97b561cc082637ff7",
+      "after_sha256": "adf91954da172212f84300afbb877e834db21740e4405fa805e4b90a22342204",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/cli.py": {
+      "before_sha256": "239cd2040757bbf75cf5fcf481e4dbe5a0cd6da7ae92ce6fc787d5f49a6a027a",
+      "after_sha256": "a03224771b6cb14def2576b0c1d78a63db9cb94eea9930080c7efba61262abaf",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/data.py": {
+      "before_sha256": "d69dd6967e77d9a4aca584b4d26eb5ab455617ff74c00489d1a9cc8fb47ddbb6",
+      "after_sha256": "f7cc4204ccb4b07f6f1f0dff1a95a86b1f3f8cf556736acd102b55117e9c3959",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/experiments.py": {
+      "before_sha256": "a7bcb21728b715356999fbb01eab9de2ab81504f820fca33c6659691098dffef",
+      "after_sha256": "2dbbcc1fad01a8cca77edf4827970750e4d876e589aea86e55304616a230bfb4",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/io.py": {
+      "before_sha256": "550726a224ed1587b3b0520fa7fa984de00b7955d9a54cb2e01777b14a32c3f8",
+      "after_sha256": "7e376ecbeebe2d02538c27a6c440885e4cc713e8e1662e644e7d6073f02aaf6a",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/metrics.py": {
+      "before_sha256": "0e745e16adad0225c8fb6f24951ed473eb32b754efff6315fafd99072c6796da",
+      "after_sha256": "67eb28c9ef7a21919df60291d94ccdf84eec29a82aadf7c4a2b15c1be1ae3559",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/models.py": {
+      "before_sha256": "8e6139c69c1420469d2d21f15d4a843c105ca1252ced53adfd9f9aa28dad15cf",
+      "after_sha256": "0569114616a4dee3683e6894c00b84921e835d1da8a78435071dcafe252a64e4",
+      "executable_ast_unchanged": true
+    },
+    "wrongrule/training.py": {
+      "before_sha256": "81f5d4f89444c9b156b9d8e9679324000e35e4ab00390da587f6325a28a82463",
+      "after_sha256": "3bc099da41bcc298bd838bcf4b0a4aa7eebf4d6cde8a44089fab567cfb59b351",
+      "executable_ast_unchanged": true
+    },
+    "tests/test_correctness.py": {
+      "before_sha256": "77aabea9bf0f15b115974f6a60dfdd2b85291af317daf9d52c561927c125fba8",
+      "after_sha256": "5a0993c9015343e1284b30584134f54d744b79609dc92008075ce99a6dc731d9",
+      "executable_ast_unchanged": true
+    },
+    "examples/inspect_checkpoint.py": {
+      "before_sha256": "f0f396de6a8197c12532c637626afe4edc319fa6fa0e525bc3aefd42cd6d3791",
+      "after_sha256": "069082cf9fc1f022e257600a00d5f083cb0eacf462257226e36a73855235cc89",
+      "executable_ast_unchanged": true
+    }
+  },
+  "note": "Only comments, docstrings, and whitespace changed in Python files. Existing experiment hashes identify the source used for those runs."
+}

@@ -1,0 +1,7 @@
+{
+  "dim": 8, "teacher_seeds": [0, 1, 2], "training_seeds": [0],
+  "n_train": 512, "n_val": 512, "n_test": 2048, "noise": 0.01,
+  "coverages": [0.0, 0.02, 0.2, 1.0], "decays": [0.0, 0.003, 0.1],
+  "train": {"steps": 1000, "width": 64, "depth": 3, "eval_every": 100,
+            "lr": 0.003, "optimizer": "adamw", "checkpoint": "best_id"}
+}

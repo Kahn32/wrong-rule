@@ -1,0 +1,10 @@
+{
+  "dim": 8, "teacher_seeds": [100, 101, 102, 103, 104, 105, 106, 107, 108, 109],
+  "training_seeds": [10, 11], "n_train": 1024, "n_val": 1024,
+  "n_test": 8192, "noise": 0.01, "coverage": 0.02,
+  "rounds": 4, "labels_per_round": 64, "pool_pairs": 2048,
+  "audit_pairs": 1024, "exploration": 0.2, "decays": [0.0, 0.003, 0.1],
+  "methods": ["random_id", "random_pairs", "diversity", "seed_pairs", "path_points", "path_pairs"],
+  "train": {"steps": 3000, "width": 128, "depth": 3, "eval_every": 100,
+            "lr": 0.003, "optimizer": "adamw", "checkpoint": "best_id"}
+}

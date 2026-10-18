@@ -1,0 +1,67 @@
+[
+  {
+    "paper": "compositional_position",
+    "url": "https://arxiv.org/html/2507.02550v1",
+    "bytes": 189425,
+    "sha256": "f9fb6e5489e9214660f2eb3ee8907d8b73122696ad242298662d883c9341727a",
+    "github_links": [
+      "https://github.com/arXiv/html_feedback/issues"
+    ]
+  },
+  {
+    "paper": "norm_constraints",
+    "url": "https://arxiv.org/html/2605.25608v1",
+    "bytes": 969323,
+    "sha256": "9e2ca30ca5de8f4d3d7fd77c01c69d7128040e38e3cf648bbcbdec13d7fc4994",
+    "github_links": [
+      "https://github.com/arXiv/html_feedback/issues"
+    ]
+  },
+  {
+    "paper": "initialization",
+    "url": "https://arxiv.org/html/2605.29152v1",
+    "bytes": 1048243,
+    "sha256": "ceb518353e73f547d14d3d0b700c7f57c143e77f0c1e8f3398d74f9ebf0fb46b",
+    "github_links": [
+      "https://github.com/arXiv/html_feedback/issues"
+    ]
+  },
+  {
+    "paper": "low_rank",
+    "url": "https://raw.githubusercontent.com/mlresearch/v280/main/assets/galanti25a/galanti25a.pdf",
+    "bytes": 2608083,
+    "sha256": "d8aec09d4ebc33f35295f6c48a8d7becbba5896c7187502811bcf618b01dd952",
+    "github_links": []
+  },
+  {
+    "paper": "system_id",
+    "url": "https://proceedings.mlr.press/v202/han23d/han23d.pdf",
+    "bytes": 816621,
+    "sha256": "a1dcba70232ef6bb29aac1b4a45f94512dd0a571bd5e4203dce0a32199e02023",
+    "github_links": [
+      "https://github.com/rwightman/pytorch-image-models"
+    ]
+  },
+  {
+    "paper": "modular_hyperteacher",
+    "url": "https://arxiv.org/html/2312.15001v2",
+    "bytes": 1033327,
+    "sha256": "5687e4b6b5cb69fc40e48f8c40ae31f605dc1e7a4d2ded561fd4cb7e68a88cd5",
+    "github_links": [
+      "http://github.com/deepmind",
+      "http://github.com/google/jax",
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/smonsays/modular-hyperteacher"
+    ]
+  },
+  {
+    "paper": "first_principles",
+    "url": "https://arxiv.org/html/2307.05596v1",
+    "bytes": 358907,
+    "sha256": "8c7c564ce87777b911fe181fe2b9f93b6fb10cc1ed7d248a1565fabcfd7396bd",
+    "github_links": [
+      "https://github.com/arXiv/html_feedback/issues",
+      "https://github.com/brendel-group/compositional-ood-generalization"
+    ]
+  }
+]

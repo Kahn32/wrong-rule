@@ -1,0 +1,29 @@
+active t0/s0 random_id round=0 labels=0 ID=0.085740 heldout=0.114050
+active t0/s0 random_id round=1 labels=4 ID=0.085715 heldout=0.113137
+active t0/s0 random_pairs round=0 labels=0 ID=0.085740 heldout=0.114050
+active t0/s0 random_pairs round=1 labels=4 ID=0.085340 heldout=0.115630
+active t0/s0 seed_pairs round=0 labels=0 ID=0.085740 heldout=0.114050
+active t0/s0 seed_pairs round=1 labels=4 ID=0.086644 heldout=0.112817
+active t0/s0 path_pairs round=0 labels=0 ID=0.085740 heldout=0.114050
+active t0/s0 path_pairs round=1 labels=4 ID=0.086644 heldout=0.112817
+active t0/s0 oracle_pairs round=0 labels=0 ID=0.085740 heldout=0.114050
+active t0/s0 oracle_pairs round=1 labels=4 ID=0.086644 heldout=0.112817
+
+test_constant_scores_are_chance_and_perfect_scores_detect_error (test_correctness.MathematicalTests.test_constant_scores_are_chance_and_perfect_scores_detect_error) ... ok
+test_response_disagreement_differs_from_point_uncertainty (test_correctness.MathematicalTests.test_response_disagreement_differs_from_point_uncertainty) ... ok
+test_ridge_formula_matches_an_independently_constructed_design_matrix (test_correctness.MathematicalTests.test_ridge_formula_matches_an_independently_constructed_design_matrix) ... ok
+test_stable_rank_known_spectra (test_correctness.MathematicalTests.test_stable_rank_known_spectra) ... ok
+test_cached_endpoints_cost_once_and_rejected_batch_has_no_side_effect (test_correctness.OracleTests.test_cached_endpoints_cost_once_and_rejected_batch_has_no_side_effect) ... ok
+test_marginals_remain_uniform_when_joint_dependence_changes (test_correctness.SamplingTests.test_marginals_remain_uniform_when_joint_dependence_changes) ... ok
+test_pairs_change_one_coordinate_and_never_leave_their_partition (test_correctness.SamplingTests.test_pairs_change_one_coordinate_and_never_leave_their_partition) ... ok
+test_partitions_are_exhaustive_and_disjoint (test_correctness.SamplingTests.test_partitions_are_exhaustive_and_disjoint) ... ok
+test_sum_control_is_invariant_to_contrast_at_fixed_sum (test_correctness.SamplingTests.test_sum_control_is_invariant_to_contrast_at_fixed_sum) ... ok
+test_zero_coverage_is_exactly_unidentifiable (test_correctness.SamplingTests.test_zero_coverage_is_exactly_unidentifiable) ... ok
+test_baselines_have_identical_starting_points_and_exact_budgets (test_correctness.TrainingTests.test_baselines_have_identical_starting_points_and_exact_budgets) ... ok
+test_reproducibility_learning_and_id_checkpoint (test_correctness.TrainingTests.test_reproducibility_learning_and_id_checkpoint) ... ok
+test_selection_never_reuses_consumed_pairs (test_correctness.TrainingTests.test_selection_never_reuses_consumed_pairs) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 1.771s
+
+OK

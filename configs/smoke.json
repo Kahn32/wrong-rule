@@ -1,0 +1,8 @@
+{
+  "dim": 4, "teacher_seeds": [0], "training_seeds": [0],
+  "n_train": 64, "n_val": 64, "n_test": 128, "noise": 0.01,
+  "coverage": 0.05, "rounds": 1, "labels_per_round": 8,
+  "pool_pairs": 32, "audit_pairs": 32, "decays": [0.0, 0.03],
+  "methods": ["random_id", "random_pairs", "diversity", "seed_pairs", "path_points", "path_pairs", "oracle_pairs"],
+  "train": {"steps": 30, "width": 16, "depth": 2, "eval_every": 10}
+}
